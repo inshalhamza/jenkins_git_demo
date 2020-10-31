@@ -13,11 +13,6 @@ pipeline {
             }
         }
         
-        stage('Checkout SCM') {
-            steps {
-                git credentialsId: '3a5aa9e5-94f5-4d8d-9e50-b44f1ba5aaad', url: 'https://github.com/inshalhamza/jenkins_git_demo'
-            }
-        }
         
             
         
